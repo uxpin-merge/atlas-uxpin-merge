@@ -16,7 +16,9 @@
     "typescript": "^4.5.2",
     "webpack": "^5.88.2"
   },
-  "scripts": {},
+  "scripts": {
+    "uxpin": "npx uxpin-merge --disable-tunneling"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
