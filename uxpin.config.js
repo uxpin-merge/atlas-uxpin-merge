@@ -5,6 +5,8 @@ module.exports = {
         name: 'General',
         include: [
           'src/components/Button/Button.tsx',
+          'src/components/Calendar/Calendar.tsx',
+          'src/components/Select/Select.tsx'
         ],
       },
     ],

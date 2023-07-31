@@ -1,21 +1,13 @@
 import React from "react";
-import PropTypes from "prop-types";
+import ButtonM, { ButtonProps } from '@atlaskit/button';
 
-function Button(props: any) {
+/**
+ * @uxpindocurl https://atlassian.design/components/button/examples
+ */
+function Button(props: ButtonProps) {
   return (
-    <button
-      onClick={props.onClick}
-      disabled={props.disabled}
-    >
-      {props.label}
-    </button>
+    <ButtonM {...props}/>
   );
 }
-
-Button.propTypes = {
-  onClick: PropTypes.func,
-  disabled: PropTypes.bool,
-  label: PropTypes.string,
-};
 
 export { Button as default };
