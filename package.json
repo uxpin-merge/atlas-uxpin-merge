@@ -6,6 +6,7 @@
     "@atlaskit/button": "^16.8.2",
     "@atlaskit/calendar": "^13.1.16",
     "@atlaskit/css-reset": "^6.5.4",
+    "@atlaskit/dynamic-table": "^14.11.2",
     "@atlaskit/eslint-plugin-design-system": "^8.2.0",
     "@atlaskit/select": "^16.5.7",
     "@atlaskit/tokens": "^1.13.1",

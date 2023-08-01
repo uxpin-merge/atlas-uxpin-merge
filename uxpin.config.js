@@ -6,6 +6,7 @@ module.exports = {
         include: [
           'src/components/Button/Button.tsx',
           'src/components/Calendar/Calendar.tsx',
+          'src/components/DynamicTable/DynamicTable.tsx',
           'src/components/Select/Select.tsx'
         ],
       },
