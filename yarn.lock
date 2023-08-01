@@ -1769,7 +1769,7 @@
 
 "@uxpin/merge-cli@^3.2.0":
   version "3.2.0"
-  resolved "https://npm.pkg.github.com/download/@UXPin/merge-cli/3.2.0/5b9e8e46d58253ef5e2d328f432be99fad1ab6af#5b9e8e46d58253ef5e2d328f432be99fad1ab6af"
+  resolved "https://registry.npmjs.org/@uxpin/merge-cli/-/merge-cli-3.2.0.tgz#5b9e8e46d58253ef5e2d328f432be99fad1ab6af"
   integrity sha512-H22IqqGxPB07awOryb4LCHwyK2flmfHViNfjXDPATf+RnCn2PsJ+oUFXz0nlDk7xogwa/px/5IgY6sml6E6c2w==
   dependencies:
     "@babel/core" "^7.21.8"
@@ -1821,8 +1821,8 @@
 
 "@uxpin/react-docgen-better-proptypes@^0.1.1":
   version "0.1.1"
-  resolved "https://npm.pkg.github.com/download/@UXPin/react-docgen-better-proptypes/0.1.1/00de0cf741e365953de35801f6a4ea3f96a1bbe8#00de0cf741e365953de35801f6a4ea3f96a1bbe8"
-  integrity sha512-GxD0bRlEkdVjHQYGOwGnElIjFWTecIofyrvdOQUjOr0Uqc8B51bwhPijnRPbk6wVDGJKbNN8NpjkDbajkRNLTg==
+  resolved "https://registry.npmjs.org/@uxpin/react-docgen-better-proptypes/-/react-docgen-better-proptypes-0.1.1.tgz#35b51aa28cf6eafe10fb3447e8aa2eeed61b0c95"
+  integrity sha512-FDHEG6Xal5usJODuDE/Ejo3xsuHAcWb9y9Y0ureRXUE9f9eP5gs0sff/UhZJke+HBgOU8lkQYDxo2HmpcdlvJg==
   dependencies:
     "@babel/runtime" "^7.2.0"
     fs-extra "^7.0.1"
