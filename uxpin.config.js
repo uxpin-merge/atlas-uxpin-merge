@@ -7,7 +7,16 @@ module.exports = {
           'src/components/Button/Button.tsx',
           'src/components/Calendar/Calendar.tsx',
           'src/components/DynamicTable/DynamicTable.tsx',
-          'src/components/Select/Select.tsx'
+          'src/components/Select/Select.tsx',
+          'src/components/PageLayout/PageLayout.tsx',
+          'src/components/Navigation/Navigation.tsx',
+          'src/components/PrimaryButton/PrimaryButton.tsx',
+        ],
+      },
+      {
+        name: 'Icons',
+        include: [
+          'src/components/AddCircleIcon/AddCircleIcon.tsx'
         ],
       },
     ],
