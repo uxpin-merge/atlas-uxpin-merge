@@ -11,7 +11,16 @@ module.exports = {
           'src/components/Checkbox/Checkbox.tsx',
           'src/components/Toggle/Toggle.tsx',
           'src/components/TextArea/TextArea.tsx',
-          'src/components/Radio/Radio.tsx'
+          'src/components/Radio/Radio.tsx',
+          'src/components/PageLayout/PageLayout.tsx',
+          'src/components/Navigation/Navigation.tsx',
+          'src/components/PrimaryButton/PrimaryButton.tsx'
+        ],
+      },
+      {
+        name: 'Icons',
+        include: [
+          'src/components/AddCircleIcon/AddCircleIcon.tsx'
         ],
       },
     ],
