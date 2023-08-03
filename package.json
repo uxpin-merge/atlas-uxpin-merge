@@ -13,6 +13,7 @@
     "@atlaskit/page": "^12.3.5",
     "@atlaskit/page-layout": "^1.7.12",
     "@atlaskit/select": "^16.5.7",
+    "@atlaskit/toggle": "^12.6.9",
     "@atlaskit/tokens": "^1.13.1",
     "@types/node": "^20.4.5",
     "@types/react": "^18.2.17",
