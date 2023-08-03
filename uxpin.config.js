@@ -8,6 +8,7 @@ module.exports = {
           'src/components/Calendar/Calendar.tsx',
           'src/components/DynamicTable/DynamicTable.tsx',
           'src/components/Select/Select.tsx',
+          'src/components/Checkbox/Checkbox.tsx'
           'src/components/PageLayout/PageLayout.tsx',
           'src/components/Navigation/Navigation.tsx',
           'src/components/PrimaryButton/PrimaryButton.tsx',
