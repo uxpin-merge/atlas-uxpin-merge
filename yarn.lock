@@ -376,6 +376,18 @@
     "@babel/runtime" "^7.0.0"
     "@emotion/react" "^11.7.1"
 
+"@atlaskit/textarea@^4.7.4":
+  version "4.7.4"
+  resolved "https://registry.npmjs.org/@atlaskit/textarea/-/textarea-4.7.4.tgz#42cf5c3c46fe6a2433cece399beb1295579baafa"
+  integrity sha512-G42NDB63+JmicoBJHxMrUJ53ZXG/h3DxcwJ+Sg81Zn4hI4KzIcQb+9Yoyj29hPAuF5f5GfA8h/UkCF7kmrBaIg==
+  dependencies:
+    "@atlaskit/analytics-next" "^9.1.0"
+    "@atlaskit/platform-feature-flags" "^0.2.0"
+    "@atlaskit/theme" "^12.5.0"
+    "@atlaskit/tokens" "^1.11.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/react" "^11.7.1"
+
 "@atlaskit/theme@^12.5.0":
   version "12.5.5"
   resolved "https://registry.npmjs.org/@atlaskit/theme/-/theme-12.5.5.tgz#ac0f0f4041ef59831f7e697995b12f8cd7946381"
