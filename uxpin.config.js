@@ -10,7 +10,8 @@ module.exports = {
           'src/components/Select/Select.tsx',
           'src/components/Checkbox/Checkbox.tsx',
           'src/components/Toggle/Toggle.tsx',
-          'src/components/TextArea/TextArea.tsx'
+          'src/components/TextArea/TextArea.tsx',
+          'src/components/Radio/Radio.tsx'
         ],
       },
     ],
