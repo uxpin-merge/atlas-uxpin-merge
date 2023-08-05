@@ -8,6 +8,5 @@ export default (
         label="Default radio"
         name="radio-default"
         testId="radio-default"
-        isChecked={true}
     />
 )
