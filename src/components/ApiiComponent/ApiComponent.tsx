@@ -7,12 +7,12 @@ const ApiComponent = () => {
   useEffect(() => {
     const uxpinProxy = 'https://app.uxpin.com/storybook';
     // Your Jira instance URL
-    const jiraBaseUrl = 'https://rob-test-uxpin.atlassian.net';
+    const jiraBaseUrl = 'https://jack-uxpin.atlassian.net';
     // Your Jira project key
-    const projectKey = 'test-project';
+    const projectKey = 'TODO';
     // Replace 'YOUR_USERNAME' and 'YOUR_API_TOKEN' with your Jira credentials
-    const username = 'YOUR_USERNAME';
-    const apiToken = 'YOUR_API_TOKEN';
+    const username = 'jack@uxpin.com';
+    const apiToken = 'ATATT3xFfGF07dsD3LlO-8R1dhublRxXgx8UMrgWDrsd1-RFhygDjUbGKagKR1RKSgNh5_UKt7JOhzreOw7aoLk5UjRvm6hvqIYUUNhWJ6-FRkBpKLYRjlLDW6jTh5ZWiiPSHytzGW0DBjLQYYdgpIQPJNOUekRFiFJA6apli6gku1rCKKdkSEM=581E44D7';
     const auth = btoa(`${username}:${apiToken}`);
 
     const fetchIssues = async () => {
