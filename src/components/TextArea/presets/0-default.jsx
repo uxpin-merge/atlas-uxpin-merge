@@ -6,7 +6,6 @@ export default (
         uxpId="textarea"
         id="area"
         resize="auto"
-        maxHeight="20vh"
         name="area"
         defaultValue="Add a message here"
     />
