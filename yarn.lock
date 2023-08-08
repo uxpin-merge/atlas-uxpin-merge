@@ -184,6 +184,22 @@
     "@babel/runtime" "^7.0.0"
     "@emotion/react" "^11.7.1"
 
+"@atlaskit/form@^8.11.10":
+  version "8.11.10"
+  resolved "https://registry.yarnpkg.com/@atlaskit/form/-/form-8.11.10.tgz#cb2de63adba6c018dbf33f582956b218ebe300ab"
+  integrity sha512-3Kb0Gz7L7nZ98iGlYILhTBjYZ0pMUOnApcPTTxAw/b79Wp83FZd/9o+cZoSijtdW4lKhd3Ra2dAH+YFgmx4Chg==
+  dependencies:
+    "@atlaskit/icon" "^21.12.0"
+    "@atlaskit/theme" "^12.5.0"
+    "@atlaskit/tokens" "^1.13.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/react" "^11.7.1"
+    final-form "^4.20.1"
+    final-form-focus "^1.1.2"
+    lodash "^4.17.21"
+    react-uid "^2.2.0"
+    tiny-invariant "^1.2.0"
+
 "@atlaskit/heading@^1.3.0":
   version "1.3.7"
   resolved "https://registry.npmjs.org/@atlaskit/heading/-/heading-1.3.7.tgz#2aaf199cc410cab6b363222cea2fa7450272aa45"
@@ -391,8 +407,20 @@
 
 "@atlaskit/textarea@^4.7.4":
   version "4.7.4"
-  resolved "https://registry.npmjs.org/@atlaskit/textarea/-/textarea-4.7.4.tgz#42cf5c3c46fe6a2433cece399beb1295579baafa"
+  resolved "https://registry.yarnpkg.com/@atlaskit/textarea/-/textarea-4.7.4.tgz#42cf5c3c46fe6a2433cece399beb1295579baafa"
   integrity sha512-G42NDB63+JmicoBJHxMrUJ53ZXG/h3DxcwJ+Sg81Zn4hI4KzIcQb+9Yoyj29hPAuF5f5GfA8h/UkCF7kmrBaIg==
+  dependencies:
+    "@atlaskit/analytics-next" "^9.1.0"
+    "@atlaskit/platform-feature-flags" "^0.2.0"
+    "@atlaskit/theme" "^12.5.0"
+    "@atlaskit/tokens" "^1.11.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/react" "^11.7.1"
+
+"@atlaskit/textfield@^5.6.3":
+  version "5.6.3"
+  resolved "https://registry.yarnpkg.com/@atlaskit/textfield/-/textfield-5.6.3.tgz#fa37a4ce4800f272488d0de103231a6c0033a8c0"
+  integrity sha512-YJojMzTjwxESAaHpbzB0y3jQJZvxEz99X2I453Zd7R6ym9+MsTI67BUAyKj24Q1sEeaYSrs6frAO3wlw/MQpTg==
   dependencies:
     "@atlaskit/analytics-next" "^9.1.0"
     "@atlaskit/platform-feature-flags" "^0.2.0"
@@ -1459,6 +1487,13 @@
   integrity sha512-wDb5pWm4WDdF6LFUde3Jl8WzPA+3ZbxYqkC6xAXuD3irdEHN1k0NfTRrJD8ZD378SJ61miMLCqIOXYhd8x+AJQ==
   dependencies:
     regenerator-runtime "^0.13.11"
+
+"@babel/runtime@^7.10.0":
+  version "7.22.10"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.22.10.tgz#ae3e9631fd947cb7e3610d3e9d8fef5f76696682"
+  integrity sha512-21t/fkKLMZI4pqP2wlmsQAWnYW1PDyKyyUV4vCi+B25ydmdaYTKXPwCj0BzSUnZf4seIiYvSA3jcZ3gdsMFkLQ==
+  dependencies:
+    regenerator-runtime "^0.14.0"
 
 "@babel/template@^7.22.5":
   version "7.22.5"
@@ -3052,6 +3087,18 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
+final-form-focus@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/final-form-focus/-/final-form-focus-1.1.2.tgz#8ea5c4bd802e220cebaa47a587bb0be164eb6806"
+  integrity sha512-Gd+Bd2Ll7ijo3/sd6kJ/bwLkhc2bUJPxTON6fIqee/008EJpACWhT+zoWCm9q6NcfMcWRS+Sp5ikRX8iqdXeGQ==
+
+final-form@^4.20.1:
+  version "4.20.9"
+  resolved "https://registry.yarnpkg.com/final-form/-/final-form-4.20.9.tgz#647b459f8c504d77ec8f6e280015ab172982af2f"
+  integrity sha512-shA1X/7v8RmukWMNRHx0l7+Bm41hOivY78IvOiBrPVHjyWFIyqqIEMCz7yTVRc9Ea+EU4WkZ5r4MH6whSo5taw==
+  dependencies:
+    "@babel/runtime" "^7.10.0"
+
 find-cache-dir@^3.3.1:
   version "3.3.2"
   resolved "https://registry.npmjs.org/find-cache-dir/-/find-cache-dir-3.3.2.tgz#b30c5b6eff0730731aea9bbd9dbecbd80256d64b"
@@ -4453,6 +4500,11 @@ regenerator-runtime@^0.13.11:
   version "0.13.11"
   resolved "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz#f6dca3e7ceec20590d07ada785636a90cdca17f9"
   integrity sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==
+
+regenerator-runtime@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.14.0.tgz#5e19d68eb12d486f797e15a3c6a918f7cec5eb45"
+  integrity sha512-srw17NI0TUWHuGa5CFGGmhfNIeja30WMBfbslPNhf6JrqQlLN5gcrvig1oqPxiVaXb0oW0XRKtH6Nngs5lKCIA==
 
 regenerator-transform@^0.15.1:
   version "0.15.1"
