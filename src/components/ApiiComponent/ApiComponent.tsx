@@ -5,7 +5,7 @@ const ApiComponent = () => {
   const [issues, setIssues] = useState([{key: 0, fields: {summary: ''}}]);
 
   useEffect(() => {
-    const uxpinProxy = 'https://app.uxpin.com/storybook';
+    const uxpinProxy = 'https://api.uxpin.com/jira';
     // Your Jira instance URL
     const jiraBaseUrl = 'https://jack-uxpin.atlassian.net';
     // Your Jira project key

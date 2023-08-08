@@ -13,7 +13,7 @@ const ApiComponent = () => {
   const [summary, setSummary] = useState('');
   const [description, setDescription] = useState('');
 
-  const uxpinProxy = 'https://app.uxpin.com/storybook';
+  const uxpinProxy = 'https://api.uxpin.com/jira';
   const jiraBaseUrl = 'https://jack-uxpin.atlassian.net';
   const projectKey = 'TODO';
   const username = 'jack@uxpin.com';
@@ -53,7 +53,7 @@ const ApiComponent = () => {
 
     try {
       await axios.post(
-        `${uxpinProxy}/${jiraBaseUrl}/api/2/issue`, // Replace with your Jira instance URL
+        `${uxpinProxy}/${jiraBaseUrl}/rest/api/2/issue`, // Replace with your Jira instance URL
         newIssue,
         {
           headers: {
