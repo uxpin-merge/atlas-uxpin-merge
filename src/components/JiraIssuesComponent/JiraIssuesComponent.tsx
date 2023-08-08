@@ -55,7 +55,7 @@ const JiraIssuesComponent = (props:ApiComponentProps) => {
 
   useEffect(() => {
     fetchIssues();
-  }, []);
+  }, [props]);
 
   const handlePostIssue = async () => {
     const newIssue = {
