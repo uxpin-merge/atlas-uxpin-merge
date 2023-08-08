@@ -23,6 +23,12 @@ module.exports = {
           'src/components/AddCircleIcon/AddCircleIcon.tsx'
         ],
       },
+      {
+        name: 'API Connection Test',
+        include: [
+          'src/components/JiraIssuesComponent/JiraIssuesComponent.tsx'
+        ],
+      },
     ],
     wrapper: 'src/components/UXPinWrapper/UXPinWrapper.tsx',
     webpackConfig: 'webpack.config.js',
