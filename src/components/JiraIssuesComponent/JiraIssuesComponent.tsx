@@ -8,16 +8,32 @@ interface JiraIssue {
   };
 }
 
-const ApiComponent = () => {
+interface ApiComponentProps {
+  username:string;
+  apiToken: string;
+  jiraBaseUrl :string;
+  projectKey: string;
+}
+
+
+const JiraIssuesComponent = (props:ApiComponentProps) => {
+
   const [issues, setIssues] = useState<JiraIssue[]>([]);
   const [summary, setSummary] = useState('');
   const [description, setDescription] = useState('');
 
   const uxpinProxy = 'https://api.uxpin.com/jira';
-  const jiraBaseUrl = 'https://jack-uxpin.atlassian.net';
-  const projectKey = 'TODO';
-  const username = 'jack@uxpin.com';
-  const apiToken = 'ATATT3xFfGF07dsD3LlO-8R1dhublRxXgx8UMrgWDrsd1-RFhygDjUbGKagKR1RKSgNh5_UKt7JOhzreOw7aoLk5UjRvm6hvqIYUUNhWJ6-FRkBpKLYRjlLDW6jTh5ZWiiPSHytzGW0DBjLQYYdgpIQPJNOUekRFiFJA6apli6gku1rCKKdkSEM=581E44D7';
+  // const jiraBaseUrl = 'https://jack-uxpin.atlassian.net';
+  // const projectKey = 'TODO';
+  // const username = 'jack@uxpin.com';
+  // const apiToken = 'ATATT3xFfGF07dsD3LlO-8R1dhublRxXgx8UMrgWDrsd1-RFhygDjUbGKagKR1RKSgNh5_UKt7JOhzreOw7aoLk5UjRvm6hvqIYUUNhWJ6-FRkBpKLYRjlLDW6jTh5ZWiiPSHytzGW0DBjLQYYdgpIQPJNOUekRFiFJA6apli6gku1rCKKdkSEM=581E44D7';
+
+  const jiraBaseUrl = props.jiraBaseUrl;
+  const projectKey = props.projectKey;
+  const username = props.username;
+  const apiToken = props.apiToken;
+
+
   const auth = btoa(`${username}:${apiToken}`);
 
   const fetchIssues = async () => {
@@ -100,4 +116,4 @@ const ApiComponent = () => {
   );
 };
 
-export default ApiComponent;
+export default JiraIssuesComponent;

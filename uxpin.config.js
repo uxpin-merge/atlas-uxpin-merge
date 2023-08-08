@@ -15,8 +15,8 @@ module.exports = {
           // 'src/components/PageLayout/PageLayout.tsx',
           // 'src/components/Navigation/Navigation.tsx',
           // 'src/components/PrimaryButton/PrimaryButton.tsx',
-          'src/components/ApiiComponent/ApiComponent.tsx',
-          'src/components/ApiiComponent/ApiComponentPost.tsx'
+          // 'src/components/ApiiComponent/ApiComponent.tsx',
+          'src/components/JiraIssuesComponent/JiraIssuesComponent.tsx'
         ],
       },
       {
