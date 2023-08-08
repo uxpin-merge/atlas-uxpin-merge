@@ -15,7 +15,8 @@ module.exports = {
           'src/components/PageLayout/PageLayout.tsx',
           'src/components/Navigation/Navigation.tsx',
           'src/components/PrimaryButton/PrimaryButton.tsx',
-          'src/components/TextField/TextField.tsx'
+          'src/components/TextField/TextField.tsx',
+          'src/components/Form/Form.tsx'
         ],
       },
       {
