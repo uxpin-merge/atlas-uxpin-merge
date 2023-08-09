@@ -304,6 +304,27 @@
     tiny-invariant "^1.2.0"
     use-callback-ref "^1.2.3"
 
+"@atlaskit/dropdown-menu@^11.11.6":
+  version "11.11.6"
+  resolved "https://registry.npmjs.org/@atlaskit/dropdown-menu/-/dropdown-menu-11.11.6.tgz#adb31486d2c978249c38ad69e37153869a91aca1"
+  integrity sha512-xREIGU6qriWX50oSdr2LXUvVbo3D1Zlg7xUd6U8JrgJQV14kQo94CJi0zTy9F5ZX97zu6PkvCLsyO96t1EY/kQ==
+  dependencies:
+    "@atlaskit/button" "^16.8.0"
+    "@atlaskit/codemod-utils" "^4.2.0"
+    "@atlaskit/ds-lib" "^2.2.0"
+    "@atlaskit/icon" "^21.12.0"
+    "@atlaskit/menu" "^1.9.0"
+    "@atlaskit/platform-feature-flags" "^0.2.2"
+    "@atlaskit/popup" "^1.9.0"
+    "@atlaskit/primitives" "^1.0.6"
+    "@atlaskit/spinner" "^15.5.0"
+    "@atlaskit/theme" "^12.5.0"
+    "@atlaskit/tokens" "^1.14.0"
+    "@atlaskit/visually-hidden" "^1.2.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/react" "^11.7.1"
+    bind-event-listener "^2.1.1"
+
 "@atlaskit/ds-explorations@^2.2.0":
   version "2.2.8"
   resolved "https://registry.npmjs.org/@atlaskit/ds-explorations/-/ds-explorations-2.2.8.tgz#339a6e677ff8dcf55839b2d6b76b5616b6dc7ea0"
@@ -503,7 +524,7 @@
     "@babel/runtime" "^7.0.0"
     memoize-one "^6.0.0"
 
-"@atlaskit/platform-feature-flags@^0.2.0":
+"@atlaskit/platform-feature-flags@^0.2.0", "@atlaskit/platform-feature-flags@^0.2.2":
   version "0.2.4"
   resolved "https://registry.npmjs.org/@atlaskit/platform-feature-flags/-/platform-feature-flags-0.2.4.tgz#198740b2f3c135cbee023efd96c8009f726d914a"
   integrity sha512-7nmpYu4BiYL3+2sjkqaFh1aho2EtQo69CgIOwpKajrbbMAp4o+MYKIzpofqzZoZk2QBMalsyRYkudG7tWi3+gg==

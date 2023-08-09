@@ -16,6 +16,7 @@ module.exports = {
           'src/components/Comment/Comment.tsx',
           'src/components/DateTimePicker/DateTimePicker.tsx',
           'src/components/Drawer/Drawer.tsx',
+          'src/components/DropdownMenu/DropdownMenu.tsx',
           'src/components/DynamicTable/DynamicTable.tsx',
           'src/components/PageLayout/PageLayout.tsx',
           'src/components/Navigation/Navigation.tsx',
@@ -53,6 +54,8 @@ module.exports = {
         name: 'Children (Parts)',
         include: [
           'src/components/BreadcrumbsItem/BreadcrumbsItem.tsx',
+          'src/components/DropdownItem/DropdownItem.tsx',
+          'src/components/DropdownItemGroup/DropdownItemGroup.tsx'
         ]
       },
       {
