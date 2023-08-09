@@ -16,6 +16,7 @@
     "@atlaskit/code": "^14.6.6",
     "@atlaskit/comment": "^10.8.15",
     "@atlaskit/css-reset": "^6.5.4",
+    "@atlaskit/datetime-picker": "^12.7.8",
     "@atlaskit/dynamic-table": "^14.11.2",
     "@atlaskit/eslint-plugin-design-system": "^8.2.0",
     "@atlaskit/form": "^8.11.10",
