@@ -62,6 +62,19 @@
     chromatism "^2.6.0"
     lodash "^4.17.21"
 
+"@atlaskit/avatar@^21.3.7":
+  version "21.3.7"
+  resolved "https://registry.npmjs.org/@atlaskit/avatar/-/avatar-21.3.7.tgz#15ba6031175cf4065a141a0593b65e12edb27237"
+  integrity sha512-ELi0zld8AKO0czdWw/PUm+l6CCCBXO3wnc7n06T8zAW/zKlZK5ZSLKUw5hofsbVXTxKlN4Sb8S6Jdm87ZF8snQ==
+  dependencies:
+    "@atlaskit/analytics-next" "^9.1.0"
+    "@atlaskit/icon" "^21.12.0"
+    "@atlaskit/theme" "^12.5.0"
+    "@atlaskit/tokens" "^1.11.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/react" "^11.7.1"
+    "@emotion/serialize" "^1.1.0"
+
 "@atlaskit/button@^16.8.0", "@atlaskit/button@^16.8.2":
   version "16.8.2"
   resolved "https://registry.npmjs.org/@atlaskit/button/-/button-16.8.2.tgz#d3cd6b2e149f9c09a10dce3949ddcb75fe09eca6"
