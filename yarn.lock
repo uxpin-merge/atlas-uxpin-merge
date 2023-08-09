@@ -62,7 +62,23 @@
     chromatism "^2.6.0"
     lodash "^4.17.21"
 
-"@atlaskit/avatar@^21.3.7":
+"@atlaskit/avatar-group@^9.3.6":
+  version "9.3.6"
+  resolved "https://registry.npmjs.org/@atlaskit/avatar-group/-/avatar-group-9.3.6.tgz#b752f3977a0816d85d8ea23b9264f470b17d53c6"
+  integrity sha512-EYnPqKFhe+mZamypdewirQyEcfhPIr7/32avjm1CwLiJuEewoU19MFKtGi03M/jbBUop6uGbztbAQ2/d80D8CQ==
+  dependencies:
+    "@atlaskit/avatar" "^21.3.0"
+    "@atlaskit/ds-lib" "^2.1.0"
+    "@atlaskit/menu" "^1.9.0"
+    "@atlaskit/popup" "^1.8.0"
+    "@atlaskit/theme" "^12.5.0"
+    "@atlaskit/tokens" "^1.12.0"
+    "@atlaskit/tooltip" "^17.8.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/react" "^11.7.1"
+    bind-event-listener "^2.1.1"
+
+"@atlaskit/avatar@^21.3.0", "@atlaskit/avatar@^21.3.7":
   version "21.3.7"
   resolved "https://registry.npmjs.org/@atlaskit/avatar/-/avatar-21.3.7.tgz#15ba6031175cf4065a141a0593b65e12edb27237"
   integrity sha512-ELi0zld8AKO0czdWw/PUm+l6CCCBXO3wnc7n06T8zAW/zKlZK5ZSLKUw5hofsbVXTxKlN4Sb8S6Jdm87ZF8snQ==
@@ -153,7 +169,7 @@
     "@emotion/react" "^11.7.1"
     tiny-invariant "^1.2.0"
 
-"@atlaskit/ds-lib@^2.2.0":
+"@atlaskit/ds-lib@^2.1.0", "@atlaskit/ds-lib@^2.2.0":
   version "2.2.3"
   resolved "https://registry.npmjs.org/@atlaskit/ds-lib/-/ds-lib-2.2.3.tgz#fc65a829b45ee0a26c9c6c97072e2d570214aec7"
   integrity sha512-e+qn7miSyHDgMHP2zpHwDufalPKzRiaof9hd5WIskVs0BQpTR1bO2w7YkjMy5cMbYrQ+QYM64eiEv1SaDLCuIQ==
@@ -266,6 +282,21 @@
     "@emotion/react" "^11.7.1"
     react-uid "^2.2.0"
 
+"@atlaskit/menu@^1.9.0":
+  version "1.9.7"
+  resolved "https://registry.npmjs.org/@atlaskit/menu/-/menu-1.9.7.tgz#48fe6d24f84b9a3f0c6f2a1771075d920fc98c61"
+  integrity sha512-raPvXCcirMDHUB2pxZYYnl4WIPHIbsY4SMZbyTt5Xo+k/OzbhXATj1OLVgA7LiaBC8CCsYQdrDV9EURiH/CsXw==
+  dependencies:
+    "@atlaskit/ds-explorations" "^2.2.0"
+    "@atlaskit/ds-lib" "^2.2.0"
+    "@atlaskit/focus-ring" "^1.3.0"
+    "@atlaskit/platform-feature-flags" "^0.2.0"
+    "@atlaskit/primitives" "^1.0.6"
+    "@atlaskit/theme" "^12.5.0"
+    "@atlaskit/tokens" "^1.13.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/react" "^11.7.1"
+
 "@atlaskit/motion@^1.4.0":
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/@atlaskit/motion/-/motion-1.4.3.tgz#4a48f3b3a130fdcfaf5764215b98a1766d0315e7"
@@ -332,6 +363,22 @@
     "@babel/runtime" "^7.0.0"
     "@popperjs/core" "^2.9.1"
     react-popper "^2.2.3"
+
+"@atlaskit/popup@^1.8.0":
+  version "1.9.2"
+  resolved "https://registry.npmjs.org/@atlaskit/popup/-/popup-1.9.2.tgz#abc00069f856ddec1ba9c08fd37c933d3d457836"
+  integrity sha512-ddkmKO4yAEtOeTKp26HYczRETlHyRV/g3eNs5hGzS8RVc2VBOjQDcte+kU9KVtcphNTjRo2x89Shd4vAgD2CKA==
+  dependencies:
+    "@atlaskit/ds-lib" "^2.2.0"
+    "@atlaskit/platform-feature-flags" "^0.2.0"
+    "@atlaskit/popper" "^5.5.0"
+    "@atlaskit/portal" "^4.3.0"
+    "@atlaskit/theme" "^12.5.0"
+    "@atlaskit/tokens" "^1.14.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/react" "^11.7.1"
+    bind-event-listener "^2.1.1"
+    focus-trap "^2.4.5"
 
 "@atlaskit/popup@^1.9.0":
   version "1.9.1"
@@ -469,6 +516,18 @@
   version "1.13.1"
   resolved "https://registry.npmjs.org/@atlaskit/tokens/-/tokens-1.13.1.tgz#0b25a5a4d17ea196aee7c00b12e4ec5b7e1c73e1"
   integrity sha512-Q6sAMbX5kQMNPOt71deN2pICf1hNlthScT0r1cHA9uPngVkhWmImDOkhoZdfvF7fhbjyHCrtcfyJF/O2xNvPKQ==
+  dependencies:
+    "@atlaskit/ds-lib" "^2.2.0"
+    "@atlaskit/platform-feature-flags" "^0.2.0"
+    "@babel/runtime" "^7.0.0"
+    "@babel/traverse" "^7.20.0"
+    "@babel/types" "^7.20.0"
+    bind-event-listener "^2.1.1"
+
+"@atlaskit/tokens@^1.12.0", "@atlaskit/tokens@^1.14.0":
+  version "1.14.0"
+  resolved "https://registry.npmjs.org/@atlaskit/tokens/-/tokens-1.14.0.tgz#b7b09dd246400c4edc32f6ddf5fa3ddc263977a2"
+  integrity sha512-npbkR0LQv05IVWiAHN/ylGH1ySP4C7TkFreGUy2KYGJTRhoxXFb6AJIJ9ehOS0Kpp2fAU4dwoOG9zfgEss+nLQ==
   dependencies:
     "@atlaskit/ds-lib" "^2.2.0"
     "@atlaskit/platform-feature-flags" "^0.2.0"
