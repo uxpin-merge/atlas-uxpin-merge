@@ -9,6 +9,7 @@
     "@atlaskit/badge": "^15.1.14",
     "@atlaskit/banner": "^12.1.15",
     "@atlaskit/blanket": "^12.4.4",
+    "@atlaskit/breadcrumbs": "^11.10.5",
     "@atlaskit/button": "^16.8.2",
     "@atlaskit/calendar": "^13.1.16",
     "@atlaskit/checkbox": "^12.6.7",

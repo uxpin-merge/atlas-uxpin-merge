@@ -125,6 +125,23 @@
     "@babel/runtime" "^7.0.0"
     "@emotion/react" "^11.7.1"
 
+"@atlaskit/breadcrumbs@^11.10.5":
+  version "11.10.5"
+  resolved "https://registry.npmjs.org/@atlaskit/breadcrumbs/-/breadcrumbs-11.10.5.tgz#8eaa3b2998f330d39d8ce09f162ff280c054027f"
+  integrity sha512-TOV5H9wHMVoomIsmyjUtCr6LURL1CqKV0+Iwt9NUuw3mmw1wjqyxePuZ3hB/isMIBy9GOLtixQAjoIfnGDCteg==
+  dependencies:
+    "@atlaskit/analytics-next" "^9.1.0"
+    "@atlaskit/button" "^16.8.0"
+    "@atlaskit/ds-lib" "^2.2.0"
+    "@atlaskit/platform-feature-flags" "^0.2.0"
+    "@atlaskit/theme" "^12.5.0"
+    "@atlaskit/tokens" "^1.11.0"
+    "@atlaskit/tooltip" "^17.8.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/react" "^11.7.1"
+    "@react-loosely-lazy/manifest" "^1.0.0"
+    react-loosely-lazy "^1.0.0"
+
 "@atlaskit/button@^16.8.0", "@atlaskit/button@^16.8.2":
   version "16.8.2"
   resolved "https://registry.npmjs.org/@atlaskit/button/-/button-16.8.2.tgz#d3cd6b2e149f9c09a10dce3949ddcb75fe09eca6"
@@ -1869,6 +1886,11 @@
   version "2.11.8"
   resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.11.8.tgz#6b79032e760a0899cd4204710beede972a3a185f"
   integrity sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==
+
+"@react-loosely-lazy/manifest@^1.0.0":
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/@react-loosely-lazy/manifest/-/manifest-1.1.0.tgz#6fe3b7444ba9d958a97ca6cf13a112d7ab2288dc"
+  integrity sha512-zUten4NRR+DCTkh7EgCSRT+slnCvI4QfcShiahp0htO8uacyfZ28ocqwffKSiRiIj5SynQSO6noAO3FPPWpNEw==
 
 "@sindresorhus/is@^4.0.0":
   version "4.6.0"
@@ -4501,6 +4523,11 @@ react-is@^17.0.2:
   version "17.0.2"
   resolved "https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
+
+react-loosely-lazy@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/react-loosely-lazy/-/react-loosely-lazy-1.1.0.tgz#5eb9b0ea04151d8ceae63728e69ad9ac098e36dc"
+  integrity sha512-UBNK+b7uNOBWJS34iSaz052mwi3XBWImeV32mWdcFn8F3U0XWeGq670w7BtcJ7PyRAYeUekJRMT2dGamcw6pKQ==
 
 react-node-resolver@^1.0.1:
   version "1.0.1"

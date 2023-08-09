@@ -9,6 +9,7 @@ module.exports = {
           'src/components/Badge/Badge.tsx',
           'src/components/Banner/Banner.tsx',
           'src/components/Blanket/Blanket.tsx',
+          'src/components/Breadcrumbs/Breadcrumbs.tsx',
           'src/components/Button/Button.tsx',
           'src/components/Calendar/Calendar.tsx',
           'src/components/DynamicTable/DynamicTable.tsx',
@@ -43,6 +44,12 @@ module.exports = {
           'src/components/AddCircleIcon/AddCircleIcon.tsx',
           'src/components/WarningIcon/WarningIcon.tsx',
         ],
+      },
+      {
+        name: 'Children (Parts)',
+        include: [
+          'src/components/BreadcrumbsItem/BreadcrumbsItem.tsx',
+        ]
       },
       {
         name: 'API Connection Test',
