@@ -37,7 +37,8 @@ module.exports = {
         include: [
           'src/components/AddCircleIcon/AddCircleIcon.tsx',
           'src/components/Avatar/Avatar.tsx',
-          'src/components/AvatarGroup/AvatarGroup.tsx'
+          'src/components/AvatarGroup/AvatarGroup.tsx',
+          'src/components/Badge/Badge.tsx'
         ],
       },
       {

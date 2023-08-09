@@ -91,6 +91,16 @@
     "@emotion/react" "^11.7.1"
     "@emotion/serialize" "^1.1.0"
 
+"@atlaskit/badge@^15.1.14":
+  version "15.1.14"
+  resolved "https://registry.npmjs.org/@atlaskit/badge/-/badge-15.1.14.tgz#29db13083a4a888c2ee5a2df9b9c33670993d8fb"
+  integrity sha512-vFsqSszCghWiBsnZ7K36wdabxDKQ2UmVu7v+dMzGEIghBgGVFb8MPo/zQ2Ig6Cyj1r3/TJJk/kVkN6RNYNzq9g==
+  dependencies:
+    "@atlaskit/codemod-utils" "^4.2.0"
+    "@atlaskit/ds-explorations" "^2.2.0"
+    "@atlaskit/primitives" "^1.0.6"
+    "@babel/runtime" "^7.0.0"
+
 "@atlaskit/button@^16.8.0", "@atlaskit/button@^16.8.2":
   version "16.8.2"
   resolved "https://registry.npmjs.org/@atlaskit/button/-/button-16.8.2.tgz#d3cd6b2e149f9c09a10dce3949ddcb75fe09eca6"

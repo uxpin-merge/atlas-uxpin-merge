@@ -6,6 +6,7 @@
     "@atlaskit/atlassian-navigation": "^2.6.17",
     "@atlaskit/avatar": "^21.3.7",
     "@atlaskit/avatar-group": "^9.3.6",
+    "@atlaskit/badge": "^15.1.14",
     "@atlaskit/button": "^16.8.2",
     "@atlaskit/calendar": "^13.1.16",
     "@atlaskit/checkbox": "^12.6.7",
