@@ -12,6 +12,7 @@ module.exports = {
           'src/components/Breadcrumbs/Breadcrumbs.tsx',
           'src/components/Button/Button.tsx',
           'src/components/Calendar/Calendar.tsx',
+          'src/components/Code/Code.tsx',
           'src/components/DynamicTable/DynamicTable.tsx',
           'src/components/PageLayout/PageLayout.tsx',
           'src/components/Navigation/Navigation.tsx',
