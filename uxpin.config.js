@@ -19,6 +19,7 @@ module.exports = {
           'src/components/DropdownMenu/DropdownMenu.tsx',
           'src/components/DynamicTable/DynamicTable.tsx',
           'src/components/PageLayout/PageLayout.tsx',
+          'src/components/Pagination/Pagination.tsx',
           'src/components/Navigation/Navigation.tsx',
           'src/components/PrimaryButton/PrimaryButton.tsx',
         ],

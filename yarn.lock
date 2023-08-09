@@ -509,7 +509,7 @@
     "@babel/runtime" "^7.0.0"
     "@emotion/react" "^11.7.1"
 
-"@atlaskit/pagination@^14.4.0":
+"@atlaskit/pagination@^14.4.0", "@atlaskit/pagination@^14.4.11":
   version "14.4.11"
   resolved "https://registry.npmjs.org/@atlaskit/pagination/-/pagination-14.4.11.tgz#3247123fe2951a637c07833b86b463c1a9b92b2d"
   integrity sha512-SY1mhIPMLCN/7Axf2g7dNj0LHPf7ffN7Aa/U5tfrL2e1cZL+ccqG4EHHpwsgvGtzwIPD1QK5im+AjQqtN8qDKQ==
