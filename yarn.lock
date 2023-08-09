@@ -593,6 +593,17 @@
     "@emotion/serialize" "^1.1.0"
     bind-event-listener "^2.1.1"
 
+"@atlaskit/primitives@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@atlaskit/primitives/-/primitives-1.1.0.tgz#43373ae01794ec48365725b45ed61a6c62b28ec7"
+  integrity sha512-jbW1sa04O/zRmDHYu35ygKt/m/sC19ZDbzg+31xNDyGHmRVKME7PR4/eZuPI4urz1tS5zBJrCm8Pxds1VkA4hw==
+  dependencies:
+    "@atlaskit/tokens" "^1.14.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/react" "^11.7.1"
+    "@emotion/serialize" "^1.1.0"
+    bind-event-listener "^2.1.1"
+
 "@atlaskit/radio@^5.6.8":
   version "5.6.8"
   resolved "https://registry.npmjs.org/@atlaskit/radio/-/radio-5.6.8.tgz#318cfbef993936557360566e4882e82e59abefe7"

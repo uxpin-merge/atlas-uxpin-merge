@@ -45,6 +45,12 @@ module.exports = {
         ],
       },
       {
+        name: 'Layout',
+        include: [
+          'src/components/Inline/Inline.tsx',
+        ],
+      },
+      {
         name: 'Icons',
         include: [
           'src/components/AddCircleIcon/AddCircleIcon.tsx',
