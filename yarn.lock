@@ -215,6 +215,22 @@
   dependencies:
     "@babel/runtime" "^7.0.0"
 
+"@atlaskit/comment@^10.8.15":
+  version "10.8.15"
+  resolved "https://registry.npmjs.org/@atlaskit/comment/-/comment-10.8.15.tgz#b612d2509bfa7273ea07d56fcf4dd48a41ef1606"
+  integrity sha512-ZZHdV5FXZHMeZBYcoqomoA0XIbWnSq9tOpYgtQ98a5X0nj7ou4tzAWQOG2ECFTGU7l/u0mF+DRHvySXes9f1sw==
+  dependencies:
+    "@atlaskit/analytics-next" "^9.1.0"
+    "@atlaskit/button" "^16.8.0"
+    "@atlaskit/ds-explorations" "^2.2.0"
+    "@atlaskit/icon" "^21.12.0"
+    "@atlaskit/lozenge" "^11.4.0"
+    "@atlaskit/primitives" "^1.0.6"
+    "@atlaskit/theme" "^12.5.0"
+    "@atlaskit/tokens" "^1.13.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/react" "^11.7.1"
+
 "@atlaskit/css-reset@^6.5.4":
   version "6.5.4"
   resolved "https://registry.npmjs.org/@atlaskit/css-reset/-/css-reset-6.5.4.tgz#1778a9057c305bf8937d9853614fbf908b355718"
@@ -347,6 +363,17 @@
     "@babel/runtime" "^7.0.0"
     "@emotion/react" "^11.7.1"
     react-uid "^2.2.0"
+
+"@atlaskit/lozenge@^11.4.0":
+  version "11.4.3"
+  resolved "https://registry.npmjs.org/@atlaskit/lozenge/-/lozenge-11.4.3.tgz#bf9ea032bbdc94bd9b24167fa88e150b86426f6a"
+  integrity sha512-BEqQAOOyL523Xqr9otMcGjvqGhGF2W6lXyDCQqTsen3D5EeCg5VZK7/ssZLt7LTz3oA32Fa2J/aLIoa3yI6L1Q==
+  dependencies:
+    "@atlaskit/codemod-utils" "^4.2.0"
+    "@atlaskit/ds-explorations" "^2.2.0"
+    "@atlaskit/theme" "^12.5.0"
+    "@atlaskit/tokens" "^1.13.0"
+    "@babel/runtime" "^7.0.0"
 
 "@atlaskit/menu@^1.9.0":
   version "1.9.7"
