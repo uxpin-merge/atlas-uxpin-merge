@@ -112,7 +112,7 @@
     "@babel/runtime" "^7.0.0"
     "@emotion/react" "^11.7.1"
 
-"@atlaskit/blanket@^12.4.4":
+"@atlaskit/blanket@^12.4.0", "@atlaskit/blanket@^12.4.4":
   version "12.4.4"
   resolved "https://registry.npmjs.org/@atlaskit/blanket/-/blanket-12.4.4.tgz#91beff09a4d5306161e839d756860bffe4658b37"
   integrity sha512-4ubUKj1iABlW3CFwJ2DR2IK+pKN3LXBJt0WSae6woJkfSVMvYd6FMLyaIuVKgomO5qTFQ8I7AjshC8PNE5BoAA==
@@ -282,6 +282,27 @@
     date-fns "^2.17.0"
     lodash "^4.17.21"
     react-scrolllock "^5.0.1"
+
+"@atlaskit/drawer@^7.5.3":
+  version "7.5.3"
+  resolved "https://registry.npmjs.org/@atlaskit/drawer/-/drawer-7.5.3.tgz#e3b27dcbba69da424aab5207002130e39b1e1e16"
+  integrity sha512-05F7SjdoIidpznhkiPlm4sQ6MCL0eNTd/bPGyPl9nN8yQsGKjROgYIkAh4Z4BRVM9VU1uv9MPhJG8E58kzrrTg==
+  dependencies:
+    "@atlaskit/analytics-next" "^9.1.0"
+    "@atlaskit/blanket" "^12.4.0"
+    "@atlaskit/icon" "^21.12.0"
+    "@atlaskit/motion" "^1.4.0"
+    "@atlaskit/portal" "^4.3.0"
+    "@atlaskit/theme" "^12.5.0"
+    "@atlaskit/tokens" "^1.5.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/react" "^11.7.1"
+    bind-event-listener "^2.1.1"
+    exenv "^1.2.2"
+    react-focus-lock "^2.5.2"
+    react-scrolllock "^5.0.1"
+    tiny-invariant "^1.2.0"
+    use-callback-ref "^1.2.3"
 
 "@atlaskit/ds-explorations@^2.2.0":
   version "2.2.8"
@@ -659,7 +680,7 @@
     "@babel/types" "^7.20.0"
     bind-event-listener "^2.1.1"
 
-"@atlaskit/tokens@^1.12.0", "@atlaskit/tokens@^1.14.0":
+"@atlaskit/tokens@^1.12.0", "@atlaskit/tokens@^1.14.0", "@atlaskit/tokens@^1.5.0":
   version "1.14.0"
   resolved "https://registry.npmjs.org/@atlaskit/tokens/-/tokens-1.14.0.tgz#b7b09dd246400c4edc32f6ddf5fa3ddc263977a2"
   integrity sha512-npbkR0LQv05IVWiAHN/ylGH1ySP4C7TkFreGUy2KYGJTRhoxXFb6AJIJ9ehOS0Kpp2fAU4dwoOG9zfgEss+nLQ==
@@ -5289,7 +5310,7 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-use-callback-ref@^1.3.0:
+use-callback-ref@^1.2.3, use-callback-ref@^1.3.0:
   version "1.3.0"
   resolved "https://registry.npmjs.org/use-callback-ref/-/use-callback-ref-1.3.0.tgz#772199899b9c9a50526fedc4993fc7fa1f7e32d5"
   integrity sha512-3FT9PRuRdbB9HfXhEq35u4oZkvpJ5kuYbpqhCfmiZyReuRgpnhDlbr2ZEnnuS0RrJAPn6l23xjFg9kpDM+Ms7w==
