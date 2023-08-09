@@ -112,6 +112,19 @@
     "@babel/runtime" "^7.0.0"
     "@emotion/react" "^11.7.1"
 
+"@atlaskit/blanket@^12.4.4":
+  version "12.4.4"
+  resolved "https://registry.npmjs.org/@atlaskit/blanket/-/blanket-12.4.4.tgz#91beff09a4d5306161e839d756860bffe4658b37"
+  integrity sha512-4ubUKj1iABlW3CFwJ2DR2IK+pKN3LXBJt0WSae6woJkfSVMvYd6FMLyaIuVKgomO5qTFQ8I7AjshC8PNE5BoAA==
+  dependencies:
+    "@atlaskit/analytics-next" "^9.1.0"
+    "@atlaskit/codemod-utils" "^4.2.0"
+    "@atlaskit/ds-lib" "^2.2.0"
+    "@atlaskit/theme" "^12.5.0"
+    "@atlaskit/tokens" "^1.11.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/react" "^11.7.1"
+
 "@atlaskit/button@^16.8.0", "@atlaskit/button@^16.8.2":
   version "16.8.2"
   resolved "https://registry.npmjs.org/@atlaskit/button/-/button-16.8.2.tgz#d3cd6b2e149f9c09a10dce3949ddcb75fe09eca6"
