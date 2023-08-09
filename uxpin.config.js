@@ -4,6 +4,10 @@ module.exports = {
       {
         name: 'General',
         include: [
+          'src/components/Avatar/Avatar.tsx',
+          'src/components/AvatarGroup/AvatarGroup.tsx',
+          'src/components/Badge/Badge.tsx',
+          'src/components/Banner/Banner.tsx',
           'src/components/Button/Button.tsx',
           'src/components/Calendar/Calendar.tsx',
           'src/components/DynamicTable/DynamicTable.tsx',
@@ -36,9 +40,7 @@ module.exports = {
         name: 'Icons',
         include: [
           'src/components/AddCircleIcon/AddCircleIcon.tsx',
-          'src/components/Avatar/Avatar.tsx',
-          'src/components/AvatarGroup/AvatarGroup.tsx',
-          'src/components/Badge/Badge.tsx'
+          'src/components/WarningIcon/WarningIcon.tsx',
         ],
       },
       {

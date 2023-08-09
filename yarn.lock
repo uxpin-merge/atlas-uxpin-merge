@@ -101,6 +101,17 @@
     "@atlaskit/primitives" "^1.0.6"
     "@babel/runtime" "^7.0.0"
 
+"@atlaskit/banner@^12.1.15":
+  version "12.1.15"
+  resolved "https://registry.npmjs.org/@atlaskit/banner/-/banner-12.1.15.tgz#86f988abf1496092a6a33cb54c9835a7d6c59c10"
+  integrity sha512-Zkd406ja0CzHOyHlXiwJRdJBgoAgS+Ygvl/TvO2wl0/eB0rnlcPqBJdKhPlMIyToR2xuyt05cllbeB2nN7PlVg==
+  dependencies:
+    "@atlaskit/primitives" "^1.0.6"
+    "@atlaskit/theme" "^12.5.0"
+    "@atlaskit/tokens" "^1.13.0"
+    "@babel/runtime" "^7.0.0"
+    "@emotion/react" "^11.7.1"
+
 "@atlaskit/button@^16.8.0", "@atlaskit/button@^16.8.2":
   version "16.8.2"
   resolved "https://registry.npmjs.org/@atlaskit/button/-/button-16.8.2.tgz#d3cd6b2e149f9c09a10dce3949ddcb75fe09eca6"

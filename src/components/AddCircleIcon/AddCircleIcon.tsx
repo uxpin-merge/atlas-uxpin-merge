@@ -10,7 +10,7 @@ import { GlyphProps } from '@atlaskit/icon/types';
 // }
 
 /**
- * @uxpindocurl https://atlassian.design/components/button/examples
+ * @uxpindocurl https://atlassian.design/components/icon/examples
  */
 function AddCircleIcon(props: GlyphProps) {
   return (
