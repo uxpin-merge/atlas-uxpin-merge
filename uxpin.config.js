@@ -15,12 +15,12 @@ module.exports = {
           'src/components/Code/Code.tsx',
           'src/components/Comment/Comment.tsx',
           'src/components/DateTimePicker/DateTimePicker.tsx',
-          'src/components/Drawer/Drawer.tsx',
+          // 'src/components/Drawer/Drawer.tsx', <--ISSUES
           'src/components/DropdownMenu/DropdownMenu.tsx',
           'src/components/DynamicTable/DynamicTable.tsx',
           'src/components/PageLayout/PageLayout.tsx',
           'src/components/Pagination/Pagination.tsx',
-          'src/components/Navigation/Navigation.tsx',
+          // 'src/components/Navigation/Navigation.tsx', <--ISSUES
           'src/components/PrimaryButton/PrimaryButton.tsx',
         ],
       },
