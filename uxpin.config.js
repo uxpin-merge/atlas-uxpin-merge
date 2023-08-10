@@ -48,6 +48,8 @@ module.exports = {
         name: 'Layout',
         include: [
           'src/components/Inline/Inline.tsx',
+          'src/components/Stack/Stack.tsx',
+          'src/components/Box/Box.tsx',
         ],
       },
       {
