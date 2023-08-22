@@ -23,10 +23,6 @@ const JiraIssuesComponent = (props:ApiComponentProps) => {
   const [description, setDescription] = useState('');
 
   const uxpinProxy = 'https://api.uxpin.com/jira';
-  // const jiraBaseUrl = 'https://jack-uxpin.atlassian.net';
-  // const projectKey = 'TODO';
-  // const username = 'jack@uxpin.com';
-  // const apiToken = 'ATATT3xFfGF07dsD3LlO-8R1dhublRxXgx8UMrgWDrsd1-RFhygDjUbGKagKR1RKSgNh5_UKt7JOhzreOw7aoLk5UjRvm6hvqIYUUNhWJ6-FRkBpKLYRjlLDW6jTh5ZWiiPSHytzGW0DBjLQYYdgpIQPJNOUekRFiFJA6apli6gku1rCKKdkSEM=581E44D7';
 
   const jiraBaseUrl = props.jiraBaseUrl;
   const projectKey = props.projectKey;
