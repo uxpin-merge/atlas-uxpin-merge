@@ -1,22 +1,29 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { Field } from '@atlaskit/form';
+import TextField from '@atlaskit/textfield';
+import Button from '@atlaskit/button';
+import SectionMessage from '@atlaskit/section-message';
+import { SimpleTag } from '@atlaskit/tag';
+import TagGroup from '@atlaskit/tag-group';
 
 interface JiraIssue {
   key: string;
   fields: {
     summary: string;
+    project: { key: string }
   };
 }
 
 interface ApiComponentProps {
-  username:string;
+  username: string;
   apiToken: string;
-  jiraBaseUrl :string;
+  jiraBaseUrl: string;
   projectKey: string;
 }
 
 
-const JiraIssuesComponent = (props:ApiComponentProps) => {
+const JiraIssuesComponent = (props: ApiComponentProps) => {
 
   const [issues, setIssues] = useState<JiraIssue[]>([]);
   const [summary, setSummary] = useState('');
@@ -35,13 +42,18 @@ const JiraIssuesComponent = (props:ApiComponentProps) => {
   const fetchIssues = async () => {
     try {
       const response = await axios.get(
+
         `${uxpinProxy}/${jiraBaseUrl}/rest/api/2/search?jql=project=${projectKey}`,
         {
           headers: {
             Authorization: `Basic ${auth}`,
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
           },
         }
       );
+      console.log(`Response: ${response.status} ${response.statusText}`);
+      console.log('stringyfied', response)
 
       setIssues(response.data.issues);
     } catch (error) {
@@ -56,7 +68,7 @@ const JiraIssuesComponent = (props:ApiComponentProps) => {
   const handlePostIssue = async () => {
     const newIssue = {
       fields: {
-        project: { key: 'TODO' }, // Replace with your actual project key
+        project: { key: projectKey },
         summary: summary,
         description: description,
         issuetype: { name: 'Task' },
@@ -65,7 +77,7 @@ const JiraIssuesComponent = (props:ApiComponentProps) => {
 
     try {
       await axios.post(
-        `${uxpinProxy}/${jiraBaseUrl}/rest/api/2/issue`, // Replace with your Jira instance URL
+        `${uxpinProxy}/${jiraBaseUrl}/rest/api/2/issue`,
         newIssue,
         {
           headers: {
@@ -85,29 +97,48 @@ const JiraIssuesComponent = (props:ApiComponentProps) => {
 
   return (
     <div>
-      <h1>Jira Issues</h1>
-      <ul>
-        {issues.map((issue) => (
-          <li key={issue.key}>{issue.fields.summary}</li>
-        ))}
-      </ul>
+      <SectionMessage
+        title={`Jira Issues in [${projectKey}] Project`}
+      >
+        <TagGroup>
+          {issues.map(
+            issue =>
+              issue.fields.project.key === projectKey && (
+                <SimpleTag text={issue.fields.summary} key={issue.key} href={`${jiraBaseUrl}/browse/${issue.key}`} />
+              )
+          )}
+        </TagGroup>
+      </SectionMessage>
+
+
       <h2>Create a New Issue</h2>
       <div>
-        <label>Summary:</label>
-        <input
-          type="text"
-          value={summary}
-          onChange={(e) => setSummary(e.target.value)}
-        />
+        <Field
+          aria-required={true}
+          name="summary"
+          label="Summary"
+          isRequired
+        >
+          {({ }) => <TextField
+            onBlur={(e) => setSummary(e.target.value)} />}
+        </Field>
       </div>
-      <div>
-        <label>Description:</label>
-        <textarea
-          value={description}
-          onChange={(e) => setDescription(e.target.value)}
-        />
+      <div style={{ marginBottom: '20px' }}>
+        <Field
+          aria-required={true}
+          name="description"
+          label="Description"
+          isRequired
+        >
+          {({ }) => <TextField
+            onBlur={(e) => setDescription(e.target.value)} />}
+        </Field>
       </div>
-      <button onClick={handlePostIssue}>Create Issue</button>
+      <Button
+        onClick={handlePostIssue}
+        appearance='primary'>
+        Create New Issue
+      </Button>
     </div>
   );
 };
