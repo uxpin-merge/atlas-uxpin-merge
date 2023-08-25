@@ -17,8 +17,8 @@ interface JiraIssue {
 
 interface ApiComponentProps {
   username: string;
-  apiToken: string;
   jiraBaseUrl: string;
+  apiToken: string;
   projectKey: string;
 }
 
@@ -32,9 +32,9 @@ const JiraIssuesComponent = (props: ApiComponentProps) => {
   const uxpinProxy = 'https://api.uxpin.com/jira';
 
   const jiraBaseUrl = props.jiraBaseUrl;
-  const projectKey = props.projectKey;
   const username = props.username;
   const apiToken = props.apiToken;
+  const projectKey = props.projectKey;
 
 
   const auth = btoa(`${username}:${apiToken}`);
