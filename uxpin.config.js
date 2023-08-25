@@ -70,7 +70,7 @@ module.exports = {
       {
         name: 'API Connection Test',
         include: [
-          'src/components/JiraIssuesComponent/JiraIssuesComponent.tsx'
+          'src/components/JiraIssuesComponent/JiraIssuesComponent.tsx' 
         ],
       },
     ],
